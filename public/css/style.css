@@ -18,3 +18,16 @@ h3,li {
 section>ul>li>a {
     font-size: 25px;
 }
+
+h3+span {
+    color: blue;
+}
+
+img {
+    border:1px solid black;
+    border-radius: 25px;
+}
+
+br+span+p:hover {
+    color: green;
+}
