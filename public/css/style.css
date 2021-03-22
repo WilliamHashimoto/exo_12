@@ -5,7 +5,7 @@ section {
     border-bottom: 1px solid black;
 }
 
-h4:first-child {
+section:first-child>h4 {
     color: blue;
 }
 
@@ -17,7 +17,7 @@ section:nth-child(2) {
 
 /* Exo 03 */
 
-section:nth-child(3)>h3,section:nth-child(3) li {
+section:nth-child(3)>h3,section:nth-child(3)>ul>li {
     color: red;
 }
 
@@ -37,11 +37,11 @@ h3+span {
 
 img {
     border:1px solid black;
-    border-radius: 25px;
+    border-radius: 50%;
 }
 
 /* Exo 07 */
 
-br+span+p:hover {
+section:last-of-type>p:hover {
     color: green;
 }
