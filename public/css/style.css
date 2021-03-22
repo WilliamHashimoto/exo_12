@@ -10,3 +10,11 @@ h4:nth-child(3) {
 section:nth-child(2) {
     border-bottom: 5px solid red;
 }
+
+h3,li {
+    color: red;
+}
+
+section>ul>li>a {
+    font-size: 25px;
+}
